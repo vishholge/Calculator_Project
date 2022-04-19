@@ -3,17 +3,33 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.body{
+
+}
+.title{
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 23px;
+    
+ 
+}
+h1{
+    margin-top: 10px;
+    background-color: coral;
+}
 .container{
     
     max-width: 400px;
-    margin: 100px auto 20px auto ;
+    margin: 60px auto 20px auto ;
     box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
 
 }
+
 #display{
     text-align: right;
     height: 100px;
-   line-height: 70px;
+   line-height: 60px;
    padding: 16px 8px;
    font-size: 25px;
 
@@ -24,7 +40,7 @@
 }
 .btn {
     border: 0.5px solid #999;
-    line-height: 100px;
+    line-height: 90px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;

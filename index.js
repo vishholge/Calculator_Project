@@ -9,6 +9,10 @@ function isOperator(buttonText){
 }
 
 function buttonclick(buttonText){
+    if(displayArea.innerText.length >23){
+        displayArea.innerText ='0';
+        return;
+    }
     if(buttonText === 'clr'){
         displayArea.innerText  = '0';
         return;
